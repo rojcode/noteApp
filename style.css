@@ -1,0 +1,112 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .red { background-color: #ff3333; color: #fff; }
+  .green { background-color: #33cc33; color: #fff; }
+  .yellow { background-color: #ffff66; color: #333; }
+  .white { background-color: #ffffff; color: #333; }
+  .blue { background-color: #3366cc; color: #fff; }
+  
+  .actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  hr {
+    margin-top: 20px;
+  }
+  
+  .note-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .note-item {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    cursor: pointer;
+  }
+
+  
+  
+
+#note-input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    
+    
+  }
+  
+
+  .context-menu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .context-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    text-align: right;
+  }
+  
+  .divider {
+    height: 1px;
+    background-color: #ccc;
+    margin: 6px 0;
+  }
+  
+  .note-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .red-background { background-color: red; }
+  .green-background { background-color: green; }
+  .blue-background { background-color: blue; }
+  .yellow-background { background-color: yellow; }
+
+
+ 
